@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Masquerade",
+    "slug": "masquerade",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "masquerade",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourname.masquerade",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.yourname.masquerade",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "masquerade",
+              "host": "join"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "plugins": [
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "07495b3b-39cf-4900-8938-ed0d0a0794a3"
+      }
+    }
+  }
+}
