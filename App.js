@@ -5,11 +5,11 @@ import { Linking, ActivityIndicator, View, StyleSheet } from 'react-native';
 
 import { signInAnon } from './supabase';
 
-import HomeScreen from './screens/HomeScreen';
-import LobbyScreen from './screens/LobbyScreen';
-import RoleScreen from './screens/RoleScreen';
-import GameScreen from './screens/GameScreen';
-import VotingScreen from './screens/VotingScreen';
+import HomeScreen from './assets_screens/HomeScreen';
+import LobbyScreen from './assets_screens/LobbyScreen';
+import RoleScreen from './assets_screens/RoleScreen';
+import GameScreen from './assets_screens/GameScreen';
+import VotingScreen from './assets_screens/VotingScreen';
 
 const Stack = createNativeStackNavigator();
 
