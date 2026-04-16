@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# EAS
+.eas/
+
+# Android
+android/
+*.apk
+*.aab
+*.keystore
+
+# iOS
+ios/
+*.ipa
+
+# Environment variables (Crucial: usually ignored, but EAS needs them if not using EAS Secrets)
+# .env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
