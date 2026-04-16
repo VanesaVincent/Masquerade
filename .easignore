@@ -1,0 +1,11 @@
+# Ignore the supabase folder as it is not needed for the app build
+supabase/
+
+# Ignore local environment files if you are using EAS secrets
+.env.local
+.env.*.local
+
+# Standard ignores
+node_modules/
+.expo/
+.git/

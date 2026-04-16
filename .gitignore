@@ -19,8 +19,11 @@ android/
 ios/
 *.ipa
 
-# Environment variables (Crucial: usually ignored, but EAS needs them if not using EAS Secrets)
-# .env
+# Project files to ignore
+supabase/
+
+# Environment variables
+.env
 
 # System files
 .DS_Store
