@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+.expo/
+.env/
 
 # Expo
 .expo/
